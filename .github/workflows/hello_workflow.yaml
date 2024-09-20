@@ -8,4 +8,4 @@ jobs:
       - name: Hello world using echo
         run: echo "$(<readme.md)"
       - name: Read the readme using cat
-        run cat readme.md
+        run: cat readme.md
